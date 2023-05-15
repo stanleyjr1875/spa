@@ -1,0 +1,28 @@
+.masthead {
+    min-height: 100vh;
+    position: relative;
+    background-size: cover;
+    
+}
+
+.masthead h1 {
+    display: flex;
+    font-size: 80px;
+    font-family: "Gorditas";
+    color: rgb(28, 32, 29);        
+    max-width: 800px;
+    margin: auto;
+    height: 60vh;    
+    align-items: center;
+    justify-content: center;
+    border: 10px;
+    
+} 
+
+.navbar-brand {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.services {
+    background-color: bisque;
+}
