@@ -23,6 +23,36 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.services {
+
+
+.container2 {
+    display: flex;
     background-color: bisque;
 }
+
+.rates {
+  margin-top: -5px;
+  text-align: right;
+  
+}
+
+.spapics {
+    margin-top: 100px;
+    margin-left: 200px;
+   
+}
+
+.booknow {
+    background-color: aqua;
+    width: 50%;
+}
+
+.container3 {
+    display: flex;
+}
+
+.copyright {
+    background-color: cadetblue;
+    text-align: center;
+}
+
