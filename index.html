@@ -7,67 +7,160 @@
     <title>k-thairan</title>
     
     <link rel="stylesheet" href="mp1.css">
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+
     <link href="https://fonts.googleapis.com/css2?family=Gorditas&display=swap" rel="stylesheet">
 
 </head>
-<body style="background-color: rgb(203, 233, 199);">
-    <div class="masthead" style="background-image: url('https://th.bing.com/th/id/OIP.kvX4AiCvdLUKvz4jsDwO6QHaE6?pid=ImgDet&rs=1');">
+<body style="background-color: rgb(203, 233, 199);">  
 
+    <div class="masthead d-sm-block d-md-block " style="background-image: url('https://th.bing.com/th/id/OIP.kvX4AiCvdLUKvz4jsDwO6QHaE6?pid=ImgDet&rs=1');">
+       
         <div class="navcon" d-flex>         
-            <div>K-THAIRAN SPA & MASSAGE</div>
-            <nav style="text-align: right;" height: 40px; width: 100%; >                            
-                <a href="services.html">Services Offered</a>
-                <a href="#aboutus">About Us</a>
-                <a href="#booknow">Book Now</a>   
-                <a href="#contactus">Contact Us</a>          
-            </nav>       
+            <div class= d-sm-block d-md-block; style="font-size: 20px; margin-left: 15px; font-family: cursive;"> K-THAIRAN BODY MASSAGE & SPA</div>           
         </div>
+
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#ServicesOffered">Services Offered</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="services.html">PRICELIST</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">About Us</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Book Now</a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled">Contact Us</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+
         <div class="overlay">
             <div class="container">
-                <h1 style="text-align: center;">Invest in your body, your soul will thank you.</h1>                
+                <h1 style="text-align: center;">Invest in your body and your soul will thank you.</h1>                
             </div>
         </div>             
     </div>
     <br>
     <br>
+    <div id="carouselExample" class="carousel slide">
+        <h2 style="text-align: center;">Services Offered</h2>
+        <div class="carousel-inner">
+            <div class="carousel-item active ratio ratio-21x9">
+            <img src="https://media.istockphoto.com/id/1286682876/photo/beauty-treatment-items-for-spa-procedures-on-white-wooden-table-massage-stones-essential-oils.jpg?s=612x612&w=0&k=20&c=Q6ENnCDbjQxkggfSLZq4WleuY0_IrMZ9MxMXRfNcsl8=" class="d-block w-100" alt="first pic" >
+            <div style="text-align: center; font-size: 20px; font-family: cursive;">Tap right or left to toggle</div>
+        </div>  
+        <div class="carousel-item ratio ratio-21x9">
+            <img src="https://images.unsplash.com/photo-1591343395082-e120087004b4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fG1hc3NhZ2UlMjB0aGVyYXB5fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60">
+            <div style="text-align: center; font-size: 20px; font-family: cursive;">Body Massage</div>
+        </div>
+        <div class="carousel-item ratio ratio-21x9">
+            <img src="https://images.unsplash.com/photo-1600334089648-b0d9d3028eb2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8bWFzc2FnZSUyMHRoZXJhcHl8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" class="d-block w-100 c-img" alt="...">
+            <div style="text-align: center; font-size: 20px; font-family: cursive;">Hot Stone</div>
+        </div>
+        <div class="carousel-item ratio ratio-21x9">
+            <img src="https://images.unsplash.com/photo-1598555748505-ccca0d9b9f7b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fG1hc3NhZ2UlMjB0aGVyYXB5fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" class="d-block w-100" alt="...">
+            <div style="text-align: center; font-size: 20px; font-family: cursive;">Ventosa</div>
+        </div>
+        <div class="carousel-item ratio ratio-21x9">
+            <img src="https://media.istockphoto.com/id/896345958/photo/female-feet-in-a-vibrating-foot-massager-electric-massage-foot-bath-pedicure-and-foot-care.jpg?s=612x612&w=0&k=20&c=RQJrx-Tnu38820fa5euW2GfoaRkNJWzwVbljfj1gtUA=" class="d-block w-100" alt="...">
+            <div style="text-align: center; font-size: 20px; font-family: cursive;">Foot Scrub</div>
+        </div>
+        <div class="carousel-item ratio ratio-21x9">
+            <img src="https://media.istockphoto.com/id/1369198641/photo/acupuncture-foot-massage-with-thai-stick-acupressure-reflexology-in-alternative-medicine.jpg?s=612x612&w=0&k=20&c=syuRLMnc3_Dh8q5MG3WL92vXTUgWgKaWnnKQ_zZGsUs=" class="d-block w-100" alt="...">
+            <div style="text-align: center; font-size: 20px; font-family: cursive;">Foot Reflex</div>
+        </div>
+        <div class="carousel-item ratio ratio-21x9">
+            <img src="https://media.istockphoto.com/id/1320776893/photo/cosmetologist-making-eyelash-extention-and-correction-using-brush.jpg?s=612x612&w=0&k=20&c=mr64RP6tlDCxuU-Bk206xT4mRKrV3m0uMCly5IYqDi8=" class="d-block w-100" alt="...">
+            <div style="text-align: center; font-size: 20px; font-family: cursive;">Eyelash Extension</div>
+        </div>
+        <div class="carousel-item ratio ratio-21x9">
+            <img src="https://media.istockphoto.com/id/1179512550/photo/beautician-prepares-hair-removal-underarms.jpg?s=612x612&w=0&k=20&c=UC5SfkpyjVsPRNtaSKVJuHPe0oDkiR4xUR8Wg0etnpE=" class="d-block w-100" alt="...">
+            <div style="text-align: center; font-size: 20px; font-family: cursive;">Waxing (Underarm)</div>
+        </div>
+        
+        <div class="carousel-item ratio ratio-21x9">
+            <img src="https://media.istockphoto.com/id/1208698301/photo/caucasian-lady-having-an-epilation-procedure-at-the-spa-while-lying-in-the-bed.jpg?s=612x612&w=0&k=20&c=eSFG2o_Ui23a8z-5S2AKdRpuSEp50S6cVwrSiyfpEVY=" class="d-block w-100" alt="...">
+            <div style="text-align: center; font-size: 20px; font-family: cursive;">waxing (Legs)</div>
+        </div>
+        <div class="carousel-item ratio ratio-21x9">
+            <img src="https://images.unsplash.com/photo-1632345031435-8727f6897d53?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fG1hbmljdXJlJTIwcGVkaWN1cmV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" class="d-block w-100" alt="...">
+            <div style="text-align: center; font-size: 20px; font-family: cursive;">Manicure/Pedicure</div>    
+        </div>
+        <div class="carousel-item ratio ratio-21x9">
+            <img src="https://media.istockphoto.com/id/1256410367/photo/woman-receiving-ear-candle-treatment-at-spa-ear-coning-or-thermal-auricular-therapy.jpg?s=612x612&w=0&k=20&c=_dYnpzloKgF1gQu8EzQOHQON7Aa_i2X3gaOY0UAHt0o=" class="d-block w-100" alt="...">
+            <div style="text-align: center; font-size: 20px; font-family: cursive;">Ear Candling</div>
+        </div>
+       
+        
+          
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <br>
+      <br>
+
     <div class="about" id="aboutus">
-        <h1 style="background-color: aquamarine; text-align: center;">About Us</h1>
-        <p>K-Thairan is a passion project that was made up multiple of years and self care theraphy. Throughtout this experience, we learned that a personal approach to each client is what really makes a difference.</p>
+        <h1 style="text-align: center;">About Us</h1>
+        <p style="margin-left: 10px; font-size: 20px; font-family: cursive;">K-Thairan is a passion project that was made up multiple of years and self care theraphy. Throughout this experience, we learned that a personal approach to each client is what really makes a difference.</p>
     </div>
 
     <div class="container3">
-            <div class="booknow" id="booknow">
-
-                <h1 style="background-color: beige;">Book Now</h1>              
-                <label for="first-name">First Name</label>
-                    <input type="text" name="first-name" id="first-name">
-                    <br>
-                <label for="last-name">Last Name</label>
-                    <input type="text" name="last-name" id="last-name">
-                    <br>                
-                <label for="mobile_number">Mobile_Number</label>
-                    <input type="number" name="mobile_number" id="mobile_number">
-                    <br>
-                <label for="email">Email</label>
-                    <input type="email" name="email" id="email">
-                    <br>
-                    <input type="submit" id="submit" name="submit" value="Submit"> 
-
-            </div>  
-                     
-                <br>
-                <br>
+            <div>
+                <h1 style="text-align: center;" id="booknow">Booknow</h1>
+                <form class="booknow" style="align-items: center;">
+                    <input type="text" placeholder="Name">
+                    <input type="email" placeholder="Email">
+                    <input type="phonenumber" placeholder="Mobile Number">
+                    <textarea rows="3" placeholder="Comment"></textarea>
+                    <input type="submit" placeholder="Submit">
+                </form>
+            </div>
+               
  
-            <div class="contactus" id="aboutus">    
-                <h1 style="background-color: aquamarine; text-align: center;">Contact Us</h1>
+            <div class="contactus" id="contactus">    
+                <h1 style="text-align: center;">Contact Us</h1>
                 <p>Should you have any concerns, suggestions and recommendations. Please free to contact us.</p>
                 <p>Email Address :  kthairan12@gmail.com</p>
                 <p>Cell Number   :  09638361500</p>
             </div>
 
     </div>
-    <div class="copyright">Copyright 2023</div>
+    <div class="copyright">K-THAIRAN Copyright 2023</div>
+
+    
+
+  
+
+   
     
 
 
